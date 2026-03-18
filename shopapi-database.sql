@@ -1,12 +1,3 @@
--- =============================================
--- ShopAPI — Database Setup
--- Run this file in MySQL Workbench against
--- your Aiven "defaultdb" database.
--- =============================================
-
--- -----------------------------------------------
--- 1. TABLES
--- -----------------------------------------------
 
 CREATE TABLE IF NOT EXISTS users (
   id         INT           NOT NULL AUTO_INCREMENT,
